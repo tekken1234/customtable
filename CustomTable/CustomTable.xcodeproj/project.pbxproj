@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840349D619652E030069B9BF /* CustomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D0A6A1963E93600AF14E1 /* CustomTableViewController.m */; };
+		842F47C419653E6A00AD4741 /* recipes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 842F47C319653E6A00AD4741 /* recipes.plist */; };
+		84991B4B1964128C00C7D9A8 /* angry_birds_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84991B3B1964128C00C7D9A8 /* angry_birds_cake.jpg */; };
+		84991B4D1964128C00C7D9A8 /* egg_benedict.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84991B3D1964128C00C7D9A8 /* egg_benedict.jpg */; };
+		84991B4E1964128C00C7D9A8 /* full_breakfast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84991B3E1964128C00C7D9A8 /* full_breakfast.jpg */; };
+		84991B4F1964128C00C7D9A8 /* green_tea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84991B3F1964128C00C7D9A8 /* green_tea.jpg */; };
+		84991B501964128C00C7D9A8 /* ham_and_cheese_panini.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84991B401964128C00C7D9A8 /* ham_and_cheese_panini.jpg */; };
+		84991B511964128C00C7D9A8 /* ham_and_egg_sandwich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84991B411964128C00C7D9A8 /* ham_and_egg_sandwich.jpg */; };
+		84991B521964128C00C7D9A8 /* hamburger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84991B421964128C00C7D9A8 /* hamburger.jpg */; };
+		84991B531964128C00C7D9A8 /* instant_noodle_with_egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84991B431964128C00C7D9A8 /* instant_noodle_with_egg.jpg */; };
+		84991B541964128C00C7D9A8 /* japanese_noodle_with_pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84991B441964128C00C7D9A8 /* japanese_noodle_with_pork.jpg */; };
+		84991B551964128C00C7D9A8 /* mushroom_risotto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84991B451964128C00C7D9A8 /* mushroom_risotto.jpg */; };
+		84991B561964128C00C7D9A8 /* noodle_with_bbq_pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84991B461964128C00C7D9A8 /* noodle_with_bbq_pork.jpg */; };
+		84991B571964128C00C7D9A8 /* starbucks_coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84991B471964128C00C7D9A8 /* starbucks_coffee.jpg */; };
+		84991B581964128C00C7D9A8 /* thai_shrimp_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84991B481964128C00C7D9A8 /* thai_shrimp_cake.jpg */; };
+		84991B591964128C00C7D9A8 /* vegetable_curry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84991B491964128C00C7D9A8 /* vegetable_curry.jpg */; };
+		84991B5A1964128C00C7D9A8 /* white_chocolate_donut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84991B4A1964128C00C7D9A8 /* white_chocolate_donut.jpg */; };
+		84991BFD1964142700C7D9A8 /* creme_brulee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84991BFC1964142700C7D9A8 /* creme_brulee.jpg */; };
+		84991C001964F91300C7D9A8 /* CustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84991BFF1964F91300C7D9A8 /* CustomTableCell.m */; };
+		849D0A551963E93600AF14E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849D0A541963E93600AF14E1 /* Foundation.framework */; };
+		849D0A571963E93600AF14E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849D0A561963E93600AF14E1 /* CoreGraphics.framework */; };
+		849D0A591963E93600AF14E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849D0A581963E93600AF14E1 /* UIKit.framework */; };
+		849D0A5F1963E93600AF14E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 849D0A5D1963E93600AF14E1 /* InfoPlist.strings */; };
+		849D0A611963E93600AF14E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D0A601963E93600AF14E1 /* main.m */; };
+		849D0A651963E93600AF14E1 /* CustomTableAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D0A641963E93600AF14E1 /* CustomTableAppDelegate.m */; };
+		849D0A681963E93600AF14E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849D0A661963E93600AF14E1 /* Main.storyboard */; };
+		849D0A6D1963E93600AF14E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849D0A6C1963E93600AF14E1 /* Images.xcassets */; };
+		849D0A741963E93700AF14E1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849D0A731963E93700AF14E1 /* XCTest.framework */; };
+		849D0A751963E93700AF14E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849D0A541963E93600AF14E1 /* Foundation.framework */; };
+		849D0A761963E93700AF14E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849D0A581963E93600AF14E1 /* UIKit.framework */; };
+		849D0A7E1963E93700AF14E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 849D0A7C1963E93700AF14E1 /* InfoPlist.strings */; };
+		849D0A801963E93700AF14E1 /* CustomTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D0A7F1963E93700AF14E1 /* CustomTableTests.m */; };
+		84AAFD88196A4C66008F4781 /* RecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AAFD87196A4C66008F4781 /* RecipeDetailViewController.m */; };
+		84E56831196A931C00FBF225 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E56830196A931C00FBF225 /* AboutViewController.m */; };
+		84E56834196A939500FBF225 /* about.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84E56832196A939500FBF225 /* about.jpg */; };
+		84E56835196A939500FBF225 /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = 84E56833196A939500FBF225 /* about.html */; };
+		84E56838196A9CED00FBF225 /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E56837196A9CED00FBF225 /* Recipe.m */; };
+		84E5683B196B8DDE00FBF225 /* photo-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E56839196B8DDE00FBF225 /* photo-frame.png */; };
+		84E5683C196B8DDE00FBF225 /* photo-frame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E5683A196B8DDE00FBF225 /* photo-frame@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		849D0A771963E93700AF14E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849D0A491963E93600AF14E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849D0A501963E93600AF14E1;
+			remoteInfo = CustomTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		842F47C319653E6A00AD4741 /* recipes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = recipes.plist; sourceTree = "<group>"; };
+		84991B3B1964128C00C7D9A8 /* angry_birds_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = angry_birds_cake.jpg; path = "../../../../Downloads/source code/chapter-4/simpletable_image_pack/angry_birds_cake.jpg"; sourceTree = "<group>"; };
+		84991B3D1964128C00C7D9A8 /* egg_benedict.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = egg_benedict.jpg; path = "../../../../Downloads/source code/chapter-4/simpletable_image_pack/egg_benedict.jpg"; sourceTree = "<group>"; };
+		84991B3E1964128C00C7D9A8 /* full_breakfast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = full_breakfast.jpg; path = "../../../../Downloads/source code/chapter-4/simpletable_image_pack/full_breakfast.jpg"; sourceTree = "<group>"; };
+		84991B3F1964128C00C7D9A8 /* green_tea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = green_tea.jpg; path = "../../../../Downloads/source code/chapter-4/simpletable_image_pack/green_tea.jpg"; sourceTree = "<group>"; };
+		84991B401964128C00C7D9A8 /* ham_and_cheese_panini.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ham_and_cheese_panini.jpg; path = "../../../../Downloads/source code/chapter-4/simpletable_image_pack/ham_and_cheese_panini.jpg"; sourceTree = "<group>"; };
+		84991B411964128C00C7D9A8 /* ham_and_egg_sandwich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ham_and_egg_sandwich.jpg; path = "../../../../Downloads/source code/chapter-4/simpletable_image_pack/ham_and_egg_sandwich.jpg"; sourceTree = "<group>"; };
+		84991B421964128C00C7D9A8 /* hamburger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hamburger.jpg; path = "../../../../Downloads/source code/chapter-4/simpletable_image_pack/hamburger.jpg"; sourceTree = "<group>"; };
+		84991B431964128C00C7D9A8 /* instant_noodle_with_egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = instant_noodle_with_egg.jpg; path = "../../../../Downloads/source code/chapter-4/simpletable_image_pack/instant_noodle_with_egg.jpg"; sourceTree = "<group>"; };
+		84991B441964128C00C7D9A8 /* japanese_noodle_with_pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = japanese_noodle_with_pork.jpg; path = "../../../../Downloads/source code/chapter-4/simpletable_image_pack/japanese_noodle_with_pork.jpg"; sourceTree = "<group>"; };
+		84991B451964128C00C7D9A8 /* mushroom_risotto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mushroom_risotto.jpg; path = "../../../../Downloads/source code/chapter-4/simpletable_image_pack/mushroom_risotto.jpg"; sourceTree = "<group>"; };
+		84991B461964128C00C7D9A8 /* noodle_with_bbq_pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = noodle_with_bbq_pork.jpg; path = "../../../../Downloads/source code/chapter-4/simpletable_image_pack/noodle_with_bbq_pork.jpg"; sourceTree = "<group>"; };
+		84991B471964128C00C7D9A8 /* starbucks_coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = starbucks_coffee.jpg; path = "../../../../Downloads/source code/chapter-4/simpletable_image_pack/starbucks_coffee.jpg"; sourceTree = "<group>"; };
+		84991B481964128C00C7D9A8 /* thai_shrimp_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thai_shrimp_cake.jpg; path = "../../../../Downloads/source code/chapter-4/simpletable_image_pack/thai_shrimp_cake.jpg"; sourceTree = "<group>"; };
+		84991B491964128C00C7D9A8 /* vegetable_curry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = vegetable_curry.jpg; path = "../../../../Downloads/source code/chapter-4/simpletable_image_pack/vegetable_curry.jpg"; sourceTree = "<group>"; };
+		84991B4A1964128C00C7D9A8 /* white_chocolate_donut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = white_chocolate_donut.jpg; path = "../../../../Downloads/source code/chapter-4/simpletable_image_pack/white_chocolate_donut.jpg"; sourceTree = "<group>"; };
+		84991BFC1964142700C7D9A8 /* creme_brulee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = creme_brulee.jpg; path = "../../../../Downloads/source code/chapter-4/simpletable_image_pack/creme_brulee.jpg"; sourceTree = "<group>"; };
+		84991BFE1964F91300C7D9A8 /* CustomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableCell.h; sourceTree = "<group>"; };
+		84991BFF1964F91300C7D9A8 /* CustomTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableCell.m; sourceTree = "<group>"; };
+		849D0A511963E93600AF14E1 /* CustomTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		849D0A541963E93600AF14E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		849D0A561963E93600AF14E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		849D0A581963E93600AF14E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		849D0A5C1963E93600AF14E1 /* CustomTable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomTable-Info.plist"; sourceTree = "<group>"; };
+		849D0A5E1963E93600AF14E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		849D0A601963E93600AF14E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		849D0A621963E93600AF14E1 /* CustomTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomTable-Prefix.pch"; sourceTree = "<group>"; };
+		849D0A631963E93600AF14E1 /* CustomTableAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTableAppDelegate.h; sourceTree = "<group>"; };
+		849D0A641963E93600AF14E1 /* CustomTableAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableAppDelegate.m; sourceTree = "<group>"; };
+		849D0A671963E93600AF14E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		849D0A691963E93600AF14E1 /* CustomTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTableViewController.h; sourceTree = "<group>"; };
+		849D0A6A1963E93600AF14E1 /* CustomTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewController.m; sourceTree = "<group>"; };
+		849D0A6C1963E93600AF14E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		849D0A721963E93700AF14E1 /* CustomTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		849D0A731963E93700AF14E1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		849D0A7B1963E93700AF14E1 /* CustomTableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomTableTests-Info.plist"; sourceTree = "<group>"; };
+		849D0A7D1963E93700AF14E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		849D0A7F1963E93700AF14E1 /* CustomTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableTests.m; sourceTree = "<group>"; };
+		84AAFD86196A4C66008F4781 /* RecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailViewController.h; sourceTree = "<group>"; };
+		84AAFD87196A4C66008F4781 /* RecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailViewController.m; sourceTree = "<group>"; };
+		84E5682F196A931C00FBF225 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		84E56830196A931C00FBF225 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		84E56832196A939500FBF225 /* about.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = about.jpg; path = "../../../../Downloads/source code/chapter-11/book-tabbar-about/about.jpg"; sourceTree = "<group>"; };
+		84E56833196A939500FBF225 /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = about.html; path = "../../../../Downloads/source code/chapter-11/book-tabbar-about/about.html"; sourceTree = "<group>"; };
+		84E56836196A9CED00FBF225 /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		84E56837196A9CED00FBF225 /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
+		84E56839196B8DDE00FBF225 /* photo-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photo-frame.png"; path = "../../../../Downloads/source code/chapter-13/photo-frame/photo-frame.png"; sourceTree = "<group>"; };
+		84E5683A196B8DDE00FBF225 /* photo-frame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photo-frame@2x.png"; path = "../../../../Downloads/source code/chapter-13/photo-frame/photo-frame@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849D0A4E1963E93600AF14E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849D0A571963E93600AF14E1 /* CoreGraphics.framework in Frameworks */,
+				849D0A591963E93600AF14E1 /* UIKit.framework in Frameworks */,
+				849D0A551963E93600AF14E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849D0A6F1963E93700AF14E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849D0A741963E93700AF14E1 /* XCTest.framework in Frameworks */,
+				849D0A761963E93700AF14E1 /* UIKit.framework in Frameworks */,
+				849D0A751963E93700AF14E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849D0A481963E93600AF14E1 = {
+			isa = PBXGroup;
+			children = (
+				849D0A5A1963E93600AF14E1 /* CustomTable */,
+				849D0A791963E93700AF14E1 /* CustomTableTests */,
+				849D0A531963E93600AF14E1 /* Frameworks */,
+				849D0A521963E93600AF14E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		849D0A521963E93600AF14E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849D0A511963E93600AF14E1 /* CustomTable.app */,
+				849D0A721963E93700AF14E1 /* CustomTableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849D0A531963E93600AF14E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				849D0A541963E93600AF14E1 /* Foundation.framework */,
+				849D0A561963E93600AF14E1 /* CoreGraphics.framework */,
+				849D0A581963E93600AF14E1 /* UIKit.framework */,
+				849D0A731963E93700AF14E1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		849D0A5A1963E93600AF14E1 /* CustomTable */ = {
+			isa = PBXGroup;
+			children = (
+				84E56839196B8DDE00FBF225 /* photo-frame.png */,
+				84E5683A196B8DDE00FBF225 /* photo-frame@2x.png */,
+				84991BFC1964142700C7D9A8 /* creme_brulee.jpg */,
+				84E56832196A939500FBF225 /* about.jpg */,
+				84E56833196A939500FBF225 /* about.html */,
+				84991B3B1964128C00C7D9A8 /* angry_birds_cake.jpg */,
+				84991B3D1964128C00C7D9A8 /* egg_benedict.jpg */,
+				84991B3E1964128C00C7D9A8 /* full_breakfast.jpg */,
+				84991B3F1964128C00C7D9A8 /* green_tea.jpg */,
+				84991B401964128C00C7D9A8 /* ham_and_cheese_panini.jpg */,
+				84991B411964128C00C7D9A8 /* ham_and_egg_sandwich.jpg */,
+				84991B421964128C00C7D9A8 /* hamburger.jpg */,
+				84991B431964128C00C7D9A8 /* instant_noodle_with_egg.jpg */,
+				84991B441964128C00C7D9A8 /* japanese_noodle_with_pork.jpg */,
+				84991B451964128C00C7D9A8 /* mushroom_risotto.jpg */,
+				84991B461964128C00C7D9A8 /* noodle_with_bbq_pork.jpg */,
+				84991B471964128C00C7D9A8 /* starbucks_coffee.jpg */,
+				84991B481964128C00C7D9A8 /* thai_shrimp_cake.jpg */,
+				84991B491964128C00C7D9A8 /* vegetable_curry.jpg */,
+				84991B4A1964128C00C7D9A8 /* white_chocolate_donut.jpg */,
+				849D0A631963E93600AF14E1 /* CustomTableAppDelegate.h */,
+				849D0A641963E93600AF14E1 /* CustomTableAppDelegate.m */,
+				849D0A661963E93600AF14E1 /* Main.storyboard */,
+				849D0A691963E93600AF14E1 /* CustomTableViewController.h */,
+				849D0A6A1963E93600AF14E1 /* CustomTableViewController.m */,
+				849D0A6C1963E93600AF14E1 /* Images.xcassets */,
+				849D0A5B1963E93600AF14E1 /* Supporting Files */,
+				84991BFE1964F91300C7D9A8 /* CustomTableCell.h */,
+				84991BFF1964F91300C7D9A8 /* CustomTableCell.m */,
+				842F47C319653E6A00AD4741 /* recipes.plist */,
+				84AAFD86196A4C66008F4781 /* RecipeDetailViewController.h */,
+				84AAFD87196A4C66008F4781 /* RecipeDetailViewController.m */,
+				84E5682F196A931C00FBF225 /* AboutViewController.h */,
+				84E56830196A931C00FBF225 /* AboutViewController.m */,
+				84E56836196A9CED00FBF225 /* Recipe.h */,
+				84E56837196A9CED00FBF225 /* Recipe.m */,
+			);
+			path = CustomTable;
+			sourceTree = "<group>";
+		};
+		849D0A5B1963E93600AF14E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				849D0A5C1963E93600AF14E1 /* CustomTable-Info.plist */,
+				849D0A5D1963E93600AF14E1 /* InfoPlist.strings */,
+				849D0A601963E93600AF14E1 /* main.m */,
+				849D0A621963E93600AF14E1 /* CustomTable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		849D0A791963E93700AF14E1 /* CustomTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				849D0A7F1963E93700AF14E1 /* CustomTableTests.m */,
+				849D0A7A1963E93700AF14E1 /* Supporting Files */,
+			);
+			path = CustomTableTests;
+			sourceTree = "<group>";
+		};
+		849D0A7A1963E93700AF14E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				849D0A7B1963E93700AF14E1 /* CustomTableTests-Info.plist */,
+				849D0A7C1963E93700AF14E1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849D0A501963E93600AF14E1 /* CustomTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849D0A831963E93700AF14E1 /* Build configuration list for PBXNativeTarget "CustomTable" */;
+			buildPhases = (
+				849D0A4D1963E93600AF14E1 /* Sources */,
+				849D0A4E1963E93600AF14E1 /* Frameworks */,
+				849D0A4F1963E93600AF14E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomTable;
+			productName = CustomTable;
+			productReference = 849D0A511963E93600AF14E1 /* CustomTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		849D0A711963E93700AF14E1 /* CustomTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849D0A861963E93700AF14E1 /* Build configuration list for PBXNativeTarget "CustomTableTests" */;
+			buildPhases = (
+				849D0A6E1963E93700AF14E1 /* Sources */,
+				849D0A6F1963E93700AF14E1 /* Frameworks */,
+				849D0A701963E93700AF14E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849D0A781963E93700AF14E1 /* PBXTargetDependency */,
+			);
+			name = CustomTableTests;
+			productName = CustomTableTests;
+			productReference = 849D0A721963E93700AF14E1 /* CustomTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849D0A491963E93600AF14E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CustomTable;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = YEHKUO;
+				TargetAttributes = {
+					849D0A711963E93700AF14E1 = {
+						TestTargetID = 849D0A501963E93600AF14E1;
+					};
+				};
+			};
+			buildConfigurationList = 849D0A4C1963E93600AF14E1 /* Build configuration list for PBXProject "CustomTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 849D0A481963E93600AF14E1;
+			productRefGroup = 849D0A521963E93600AF14E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849D0A501963E93600AF14E1 /* CustomTable */,
+				849D0A711963E93700AF14E1 /* CustomTableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849D0A4F1963E93600AF14E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84991B531964128C00C7D9A8 /* instant_noodle_with_egg.jpg in Resources */,
+				84991B501964128C00C7D9A8 /* ham_and_cheese_panini.jpg in Resources */,
+				84991B561964128C00C7D9A8 /* noodle_with_bbq_pork.jpg in Resources */,
+				84991B5A1964128C00C7D9A8 /* white_chocolate_donut.jpg in Resources */,
+				84991B521964128C00C7D9A8 /* hamburger.jpg in Resources */,
+				84991B581964128C00C7D9A8 /* thai_shrimp_cake.jpg in Resources */,
+				842F47C419653E6A00AD4741 /* recipes.plist in Resources */,
+				84991B4B1964128C00C7D9A8 /* angry_birds_cake.jpg in Resources */,
+				84E56835196A939500FBF225 /* about.html in Resources */,
+				84E5683C196B8DDE00FBF225 /* photo-frame@2x.png in Resources */,
+				849D0A6D1963E93600AF14E1 /* Images.xcassets in Resources */,
+				84991B511964128C00C7D9A8 /* ham_and_egg_sandwich.jpg in Resources */,
+				84991B571964128C00C7D9A8 /* starbucks_coffee.jpg in Resources */,
+				84991B591964128C00C7D9A8 /* vegetable_curry.jpg in Resources */,
+				84991B551964128C00C7D9A8 /* mushroom_risotto.jpg in Resources */,
+				84E5683B196B8DDE00FBF225 /* photo-frame.png in Resources */,
+				84991BFD1964142700C7D9A8 /* creme_brulee.jpg in Resources */,
+				849D0A5F1963E93600AF14E1 /* InfoPlist.strings in Resources */,
+				849D0A681963E93600AF14E1 /* Main.storyboard in Resources */,
+				84991B4D1964128C00C7D9A8 /* egg_benedict.jpg in Resources */,
+				84991B4F1964128C00C7D9A8 /* green_tea.jpg in Resources */,
+				84991B4E1964128C00C7D9A8 /* full_breakfast.jpg in Resources */,
+				84991B541964128C00C7D9A8 /* japanese_noodle_with_pork.jpg in Resources */,
+				84E56834196A939500FBF225 /* about.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849D0A701963E93700AF14E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849D0A7E1963E93700AF14E1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849D0A4D1963E93600AF14E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E56831196A931C00FBF225 /* AboutViewController.m in Sources */,
+				84E56838196A9CED00FBF225 /* Recipe.m in Sources */,
+				840349D619652E030069B9BF /* CustomTableViewController.m in Sources */,
+				849D0A651963E93600AF14E1 /* CustomTableAppDelegate.m in Sources */,
+				849D0A611963E93600AF14E1 /* main.m in Sources */,
+				84991C001964F91300C7D9A8 /* CustomTableCell.m in Sources */,
+				84AAFD88196A4C66008F4781 /* RecipeDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849D0A6E1963E93700AF14E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849D0A801963E93700AF14E1 /* CustomTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		849D0A781963E93700AF14E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849D0A501963E93600AF14E1 /* CustomTable */;
+			targetProxy = 849D0A771963E93700AF14E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		849D0A5D1963E93600AF14E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849D0A5E1963E93600AF14E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		849D0A661963E93600AF14E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849D0A671963E93600AF14E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		849D0A7C1963E93700AF14E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849D0A7D1963E93700AF14E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		849D0A811963E93700AF14E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		849D0A821963E93700AF14E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849D0A841963E93700AF14E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomTable/CustomTable-Prefix.pch";
+				INFOPLIST_FILE = "CustomTable/CustomTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		849D0A851963E93700AF14E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomTable/CustomTable-Prefix.pch";
+				INFOPLIST_FILE = "CustomTable/CustomTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		849D0A871963E93700AF14E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomTable.app/CustomTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomTable/CustomTable-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CustomTableTests/CustomTableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		849D0A881963E93700AF14E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomTable.app/CustomTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomTable/CustomTable-Prefix.pch";
+				INFOPLIST_FILE = "CustomTableTests/CustomTableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849D0A4C1963E93600AF14E1 /* Build configuration list for PBXProject "CustomTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849D0A811963E93700AF14E1 /* Debug */,
+				849D0A821963E93700AF14E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849D0A831963E93700AF14E1 /* Build configuration list for PBXNativeTarget "CustomTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849D0A841963E93700AF14E1 /* Debug */,
+				849D0A851963E93700AF14E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849D0A861963E93700AF14E1 /* Build configuration list for PBXNativeTarget "CustomTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849D0A871963E93700AF14E1 /* Debug */,
+				849D0A881963E93700AF14E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 849D0A491963E93600AF14E1 /* Project object */;
+}
